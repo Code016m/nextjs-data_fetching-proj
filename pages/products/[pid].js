@@ -2,7 +2,6 @@ import path from "path";
 import fs from "fs/promises";
 
 import { Fragment } from "react";
-import { notFound } from "next/navigation";
 
 function ProductDetailPage(props) {
   const { loadedProduct } = props;
